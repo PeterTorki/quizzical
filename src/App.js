@@ -82,6 +82,7 @@ export default function App() {
     setIsAllSelected(false)
     setStart(false) 
     setSubmitted(false)
+    setQuizzical(false)
   }
 
   function checkMissed() {
