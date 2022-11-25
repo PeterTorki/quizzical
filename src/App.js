@@ -92,7 +92,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <img className='top--img' alt="top" src="./../imgs/blob1.png" />
+    <img className='top--img' alt="bottom" src={require('./imgs/blob1.png')} />
       {
       start ?
         <main>
@@ -118,7 +118,7 @@ export default function App() {
         <button className="quiz-btn" onClick={() => setStart(true)}>Start quiz</button>
       </main>
     }
-    <img className='bottom--img' alt="bottom" src="./../imgs/blob2.png" />
+    <img className='bottom--img' alt="bottom" src={require('./imgs/blob2.png')} />
     </div>
   );
 }
